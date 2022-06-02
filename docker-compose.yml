@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  materialized:
+    image: materialize/materialized:${MATERIALIZED_VERSION}
+    command: -w2 --disable-telemetry
+    ports:
+      - 6875:6875
+    networks:
+      - default
+networks:
+  default:
+    driver: bridge

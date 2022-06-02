@@ -1,0 +1,6 @@
+tasks:
+  - init: docker-compose pull
+  - command: docker-compose up
+ports:
+  - port: 6875
+    onOpen: ignore
