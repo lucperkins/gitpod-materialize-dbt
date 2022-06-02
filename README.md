@@ -1,3 +1,3 @@
-# Testing
+# Materialize and dbt on GitPod
 
-Open at https://gitpod.io/#prebuild/https://github.com/lucperkins/gitpod-materialize-dbt
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#prebuild/https://github.com/lucperkins/gitpod-materialize-dbt)
