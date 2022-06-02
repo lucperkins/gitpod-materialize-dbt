@@ -4,3 +4,7 @@ tasks:
 ports:
   - port: 6875
     onOpen: ignore
+
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
